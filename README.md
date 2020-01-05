@@ -12,20 +12,20 @@ an army attacking a fort.
 
 FOR TERMUX..
 
-pkg update && upgrade
-pkg install python 
-pkg install git
-git clone https://github.com/AnoniseXploit/brutesoc.git
-cd brutesoc/
-python brutesoc.py
+$ pkg update && upgrade
+$ pkg install python 
+$ pkg install git
+$ git clone https://github.com/AnoniseXploit/brutesoc.git
+$ cd brutesoc/
+$ python brutesoc.py
 
 for Linux Distro
 
-sudo apt-get update && upgrade
-sudo apt-get install git
-git clone https://github.com/AnoniseXploit/brutesoc.git
-cd brutesoc/
-python brutsoc.py
+:~# sudo apt-get update && upgrade
+:~# sudo apt-get install git
+:~# git clone https://github.com/AnoniseXploit/brutesoc.git
+:~# cd brutesoc/
+:~# python brutsoc.py
 
 
 ######-REQUIREMENT-#####
