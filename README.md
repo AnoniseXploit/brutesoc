@@ -40,7 +40,8 @@ ___for Linux Distro___
 python version 2.x
 
 :::::####-NOTE-####
-***passwords file is editable you can add you password with you own choice***
+
+***passwords file is editable you can add password with you own choice but password have been alwayse saved in passwords.txt file....use  passwords.txt file to save your own words....***
 
 ####FOllow me oN####
 FACEBOOK:Anonise Xploit
