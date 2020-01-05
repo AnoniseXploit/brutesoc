@@ -36,6 +36,7 @@ ___for Linux Distro___
 
 
 ######-REQUIREMENT-#####
+
 python version 2.x
 
 :::::####-NOTE-####
