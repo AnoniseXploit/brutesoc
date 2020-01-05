@@ -17,9 +17,9 @@ $ pkg install python
 
 $ pkg install git
 
-$ git clone https://github.com/AnoniseXploit/brutesoc.git
+$ git clone https://github.com/AnoniseXploit/brutesoc-master.git
 
-$ cd brutesoc/
+$ cd brutesoc-master/
 
 $ python brutesoc.py
 
@@ -28,9 +28,9 @@ ___for Linux Distro___
 
 :~# apt-get install git python3 python3-pip python python-pip
 
-:~# git clone https://github.com/AnoniseXploit/brutesoc.git
+:~# git clone https://github.com/AnoniseXploit/brutesoc-master.git
 
-:~# cd brutesoc/
+:~# cd brutsoc-master/
 
 :~# python brutsoc.py
 
