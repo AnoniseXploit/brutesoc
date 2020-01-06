@@ -1,4 +1,4 @@
-# brutesoc-master
+# brutsoc-master
 ###Created By Anonise Xploit##
 .....
 ##What is Bruteforce Attack?###
@@ -60,22 +60,9 @@ Welcome to Brutsoc
 
 #################INSTALLATION#################
 
-____FOR TERMUX___
-
-$ pkg install python 
-
-$ pkg install git
-
-$ git clone https://github.com/AnoniseXploit/brutsoc.git
-
-$ cd brutesoc-master/
-
-$ python brutsoc.py
-
-
-___for Linux Distro___
-
 :~# apt-get install git python3 python3-pip python python-pip
+
+:~# pip install mechanize
 
 :~# git clone https://github.com/AnoniseXploit/brutsoc.git
 
