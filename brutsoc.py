@@ -50,9 +50,8 @@ file=open('passwords.txt','r')
 
 email=str(raw_input("\033[1;31;40m [*] Enter [Email|Phone|Username|ID]: \033[0m ").strip())
 
-print("\033[1;33;40m {*}Targeted Email ID :\033[0m \n "),email
-
-print("\033[5;35;40m {*}Bruteforcing Targeted Email...!!\033[0m \n") 
+print "\n \033[1;33;40m {*}Targeted Email ID :\033[0m  ",email
+print("\n \033[5;35;40m {*}Bruteforcing Targeted Email...!!\033[0m") 
 
 i=0
 while file:
@@ -76,3 +75,4 @@ while file:
 	
 ###tHIS content is editable ....###
 ##@Anonise Xploit##
+
