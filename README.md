@@ -59,7 +59,7 @@ ___#################INSTALLATION#################____
 
 :~# apt-get install git python3 python3-pip python python-pip
 
-:~# pip install mechanize
+:~# pip3 install mechanize
 
 :~# git clone https://github.com/AnoniseXploit/brutsoc.git
 
