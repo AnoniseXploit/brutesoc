@@ -1,4 +1,5 @@
 # brutsoc-master
+
 ###Created By Anonise Xploit##
 .....
 ##What is Bruteforce Attack?###
@@ -54,11 +55,7 @@ Welcome to Brutsoc
  [****]Password Found:  1gitlover
 
 
-#######
-
-## 
-
-#################INSTALLATION#################
+___#################INSTALLATION#################____
 
 :~# apt-get install git python3 python3-pip python python-pip
 
@@ -75,11 +72,12 @@ Welcome to Brutsoc
 
 python version 2.x
 
-:::::####-NOTE-####
+_____NOTE_____
 
 ***passwords file is editable you can add password with you own choice but password have been alwayse saved in passwords.txt file....use  passwords.txt file to save your own words....***
 
-####FOllow me oN####
+_____FOllow me oN_____
+
 FACEBOOK:Anonise Xploit
 
 twitter:xxx@anoniseXXX
