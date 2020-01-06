@@ -6,7 +6,7 @@
 ##Import Option##
 #import os
 # import urllib.request
-import time
+#import time
 import sys
 
 if sys.version_info[0] !=2: 
@@ -33,30 +33,7 @@ try:
 except:
 	print('\n\tPlease install mechanize.\n')
 	sys.exit()
-def update_progress(progress):
-    barLength = 50 # Modify this to change the length of the progress bar
-    status = ""
-    if isinstance(progress, int):
-        progress = float(progress)
-    if not isinstance(progress, float):
-        progress = 0
-        status = "error: progress var must be float\r\n"
-    if progress < 0:
-        progress = 0
-        status = "Halt...\r\n"
-    if progress >= 1:
-        progress = 1
-        status = "Done...\r\n"
-    block = int(round(barLength*progress))
-    text = "\r [{0}] {1}% {2}".format( "#"*block + "-"*(barLength-block), progress*100, status)
-    sys.stdout.write(text)
-    sys.stdout.flush()
-
-print "Loading.."
-for i in range(101):
-    time.sleep(0.01)
-    update_progress(i/100.0)
-
+	
 print("Welcome to Brutsoc")
 __banner__ = """                 ____             _                  
                 | __ ) _ __ _   _| |_ ___  ___   ___ 
@@ -68,6 +45,8 @@ __banner__ = """                 ____             _
                                                                                                       """       
 print(__banner__)                                                                      
 file=open('passwords.txt','r')
+#file=open('password.txt','r')  {if necessary}
+#file=open('your own wordlist path','r')
 
 email=str(raw_input("\033[1;31;40m [*] Enter [Email|Phone|Username|ID]: \033[0m ").strip())
 
